@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Página principal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index2.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-xl navbar-light bg-light navegacion">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Principal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+        aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse show" id="navbarBasic">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Segunda página</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tercera página</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="navegacion fixed-bottom bd-highlight">
+      <p align="center"><a href="mailto:eduardmizdran@gmail.com">Enviame un
+          Correo</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a
+          href="https://github.com/eduardmiz"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt="github" width="35" height="35"></p></a>
+    </div>
+  </nav>
+  <!-- Debes envolver el contenido en un jumbotron haciendo uso de las clases correspondientes -->
+  <div id="cuerpo">
+    <div class="jumbotron">
+      <h1 class="display-4">Bienvenido! o algún tipo de saludo...</h1>
+      <p class="lead">Algo más sobre mí. Una pequeña biografía aquí</p>
+      <hr class="my-4">
+      <p>Algo más de contenido sobre mí. P.S. Échale un vistazo a la galería</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="gallery.html" role="button">Mi galería</a>
+      </p>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0wI1ftHzL3SrNsrwhqF15q1EOrsGi-6v7y4spWzgs5ZNp0u61h3SDVAKwJOK6Vhm79xs&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1MhTJY-gn4T_eLBP5fx2zri5fckqJjEqK2NLyg8GCYaccOxIcRlRzvpaNYIMT2mDNy4&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://estaticos-cdn.elperiodico.com/clip/058459c5-9fbb-4609-95fb-705269a5d689_alta-libre-aspect-ratio_default_0.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end -->
+
+</body>
+
+</html>

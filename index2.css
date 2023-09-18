@@ -1,0 +1,10 @@
+#cuerpo {
+    padding: 2rem;
+    background-image: url(https://www.365sabadosviajando.com/wp-content/uploads/2018/04/monte-fuji-lago-kawaguchi.jpg) !important;
+    background-size: cover;
+  }
+  
+.navegacion {
+    background-color: blue !important;
+    text-shadow: 1px 1px black;
+}
